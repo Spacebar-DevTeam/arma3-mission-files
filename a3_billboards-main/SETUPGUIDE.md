@@ -40,8 +40,8 @@ Option 2: Use Scripts to Spawn in Runtime
     ```
     Add billboard_spawn.sqf to your mission folder.
       Execute in Debug Console ([] execVM "a3_billboards-main\pgm\billboard_spawn.sqf";).
-      Billboard spawns instantly.
     ```
+    Billboard spawns instantly.
 
 Option 3: Apply Texture to an Existing Billboard
     ```
