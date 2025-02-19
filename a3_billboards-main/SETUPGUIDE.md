@@ -49,7 +49,7 @@ Option 3: Apply Texture to an Existing Billboard
       Run in Debug Console:
     ```
    `
-   [] execVM "a3_billboards-main\scripts\object_texture.sqf";
+   [] execVM "a3_billboards-main\pgm\object_texture.sqf";
    `
    All nearby billboards will update.
 
@@ -58,7 +58,7 @@ Folder structure example:
    arma3-mission-files/
    ├── a3_billboards-main/
    │   ├── example.sqm
-   │   ├── scripts/
+   │   ├── pgm/
    │   │   ├── billboard_spawn.sqf
    │   │   ├── object_texture.sqf
    │   ├── textures/
