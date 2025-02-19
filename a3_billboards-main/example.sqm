@@ -1,0 +1,57 @@
+/*
+  What this does:
+
+    Places a billboard at specific coordinates.
+      Loads a custom texture (example.paa).
+      Can be opened in Eden Editor for manual adjustments.
+*/
+
+version=53;
+class Mission
+{
+    addOns[]=
+    {
+        "A3_Structures_F"
+    };
+    class Intel
+    {
+        briefingName="Example Billboard Mission";
+        overviewText="Demonstrates how to place and texture a billboard in Arma 3.";
+        startWeather=0.5;
+        startFog=0;
+    };
+    class Entities
+    {
+        items=1;
+        class Item0
+        {
+            dataType="Object";
+            class PositionInfo
+            {
+                position[]={4833.1934,15.339883,5107.584}; // Adjust position
+                angles[]={0,5.8341117,0}; // Adjust rotation
+            };
+            type="Land_Billboard_F"; // Billboard class
+            class CustomAttributes
+            {
+                class Attribute0
+                {
+                    property="ObjectTextureCustom0";
+                    expression="_this setObjectTextureGlobal [0,_value]";
+                    class Value
+                    {
+                        class data
+                        {
+                            class type
+                            {
+                                type[]={"STRING"};
+                            };
+                            value="a3_billboards-main\textures\example.paa"; // Path to custom texture
+                        };
+                    };
+                };
+                nAttributes=1;
+            };
+        };
+    };
+};
