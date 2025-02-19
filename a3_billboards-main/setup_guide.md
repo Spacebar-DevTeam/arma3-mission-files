@@ -1,4 +1,4 @@
-# SETUP GUIDE.md
+# setup_guide.md
 
 ## Setting Up Custom Textures in Arma 3 Missions
 
