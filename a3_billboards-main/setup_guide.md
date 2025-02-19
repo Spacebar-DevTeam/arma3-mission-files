@@ -58,18 +58,18 @@ Folder structure example:
    arma3-mission-files/
    ├── a3_billboards-main/
    │   ├── example.sqm
-   │   ├── pgm/
+   │   ├── scripts/
    │   │   ├── billboard_spawn.sqf
    │   │   ├── object_texture.sqf
-   │   ├── textures/
+   │   ├── pgm/
    │   │   ├── example.paa  (Custom Texture)
    │   ├── README.md
    ````
 
 Final Checklist
-   ✔ Test example.sqm in Eden Editor.
-   ✔ Use billboard_spawn.sqf for dynamic billboard creation.
-   ✔ Use object_texture.sqf to apply custom textures.
+   Test example.sqm in Eden Editor.
+   Use billboard_spawn.sqf for dynamic billboard creation.
+   Use object_texture.sqf to apply custom textures.
 
 ### Troubleshooting
 - Ensure the `.paa` file exists in the correct `pgm` folder.
