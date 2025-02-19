@@ -28,10 +28,8 @@
 1. Upload the `.pbo` file to your **server's `mpmissions` folder`**.
 2. Restart the server to apply changes.
 
-
 How to Use These Files
 Option 1: Manually Place in Eden Editor
-
     ```
     Put example.sqm inside your mission folder.
       Open Eden Editor → Load example.sqm.
@@ -39,15 +37,13 @@ Option 1: Manually Place in Eden Editor
     ```
 
 Option 2: Use Scripts to Spawn in Runtime
-
     ```
     Add billboard_spawn.sqf to your mission folder.
-      Execute in Debug Console ([] execVM "a3_billboards-main\scripts\billboard_spawn.sqf";).
+      Execute in Debug Console ([] execVM "a3_billboards-main\pgm\billboard_spawn.sqf";).
       Billboard spawns instantly.
     ```
 
 Option 3: Apply Texture to an Existing Billboard
-
     ```
     Add object_texture.sqf to your mission.
       Run in Debug Console:
