@@ -1,0 +1,7 @@
+//<'a3_dms.pbo' properties via Mikero's dos tools, dll version 9.89>
+prefix=x\addons\DMS;
+Mikero=DePbo.dll.9.89;
+pboprefix=x\addons\DMS;
+version=25021616;
+//PboType=Arma Addon;
+//</properties>
